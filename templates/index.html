@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<br>
+<h1>Home Page</h1>
+<br>
+<br>
+<div>
+    <div class="bg-light p-5 rounded">
+        <div class="col-sm-8 mx-auto">
+            <h1>Welcome!</h1>
+            <p> Welcome to my blog. Feel free to experiment with creating, deleting and editing blog posts. This has been made
+                with Flask. Contact me if you wanna get in touch!
+            </p>
+            <p>Email me at sumaantamunde@gmail.com</p>
+            <p>
+                <a class="btn btn-primary" href="/posts" role="button">GO TO BLOG POSTS
+                    &raquo;</a>
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
